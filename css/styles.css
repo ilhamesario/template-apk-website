@@ -1,0 +1,172 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap");
+
+body {
+  font-family: "Montserrat";
+  text-align: center;
+  margin: 0;
+}
+
+h1,
+h2,
+h3,
+h3,
+h5,
+h6 {
+  font-family: "Montserrat";
+  font-weight: bold;
+}
+
+p {
+  color: #8f8f8f;
+}
+
+/* heading */
+.big-heading {
+  font-family: "Montserrat";
+  font-weight: 900;
+  font-size: 3.2rem;
+  line-height: 1.5;
+}
+
+.section-heading {
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+/* container */
+.container-fluid {
+  padding: 7% 15%;
+}
+
+/* section */
+.colored-section {
+  background-color: #ff4c68;
+  color: #fff;
+}
+
+.white-section {
+  background-color: #fff;
+}
+
+/* navigation bar */
+.navbar-brand {
+  font-family: "Ubuntu";
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+.nav-link {
+  font-size: 1.2rem;
+  font-family: "Montserrat-Light";
+}
+
+/* title section*/
+#title {
+  text-align: left;
+}
+
+#title .container-fluid {
+  padding: 3% 15% 7%;
+}
+
+/* title image */
+.title-image {
+  transform: rotate(25deg);
+  width: 22%;
+  margin-left: 40px;
+  position: absolute;
+}
+
+/* feature section */
+#features {
+  position: relative;
+}
+
+.feature-title {
+  font-size: 1.5rem;
+}
+
+.feature-box {
+  padding: 3%;
+}
+
+.icon {
+  color: #ef8172;
+  font-size: 3rem;
+  margin-bottom: 1rem;
+}
+
+.icon:hover {
+  color: #ff4c68;
+}
+
+/* testimoni */
+#testimonials {
+  background-color: #ef8172;
+}
+
+.testi-image {
+  width: 10%;
+  border-radius: 100%;
+  margin: 20px;
+}
+
+.testi-text {
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+#press {
+  background-color: #ef8172;
+  padding-bottom: 3%;
+}
+
+.press-logo {
+  width: 15%;
+  margin: 20px 20px 50px;
+}
+
+/* pricing section */
+#pricing {
+  padding: 100px;
+}
+
+.price-text {
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+.pricing-column {
+  padding: 3% 2%;
+}
+
+/* button */
+.download-button {
+  margin: 5% 3% 5% 0;
+}
+
+/* footer */
+#footer .container-fluid {
+  padding: 20px 15% 20px;
+}
+.social-icon {
+  margin: 20px 10px;
+}
+
+.social-icon:hover {
+  color: #ff4c68;
+}
+
+/* media query */
+@media (max-width: 991px) {
+  .title-image {
+    position: static;
+    transform: rotate(0);
+    width: 40%;
+    margin-left: 40px;
+  }
+
+  #title {
+    text-align: center;
+  }
+}
